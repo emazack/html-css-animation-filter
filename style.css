@@ -41,6 +41,11 @@
 }
 .ex-10-icon {
     font-size: 60px;
+    animation-name: giravolta;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+
 }
 .ex-11-icon {
     font-size: 60px;
@@ -124,4 +129,9 @@
   filter: sepia(0.7);
   border-radius: 6%;
   transform: scale(1.5);
+}
+
+@keyframes giravolta {
+  0% {
+     transform: rotate(360deg);
 }
